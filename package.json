@@ -1,0 +1,40 @@
+{
+    "name": "xtheme",
+    "version": "1.0.0",
+    "description": "A tailwindcss plugin to make custom themes",
+    "keywords": [
+        "tailwindcss",
+        "themes",
+        "xtheme"
+    ],
+    "author": {
+        "email": "navindersingh568+xtheme@gmail.com",
+        "name": "NaviTheCoderboi",
+        "url": "https://navithecoderboi.me"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "pnpm tsc",
+        "demo": "pnpm vite",
+        "test": "pnpm build && pnpm vitest"
+    },
+    "main": "dist/index.js",
+    "devDependencies": {
+        "@types/node": "^20.8.7",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.52.0",
+        "postcss": "^8.4.31",
+        "prettier": "^3.0.3",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.2.2",
+        "vite": "^4.5.0",
+        "vitest": "^0.34.6"
+    },
+    "peerDependencies": {
+        "tailwindcss": "^3.3.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NaviTheCoderboi/xtheme"
+    }
+}
